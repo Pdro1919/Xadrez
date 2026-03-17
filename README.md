@@ -6,23 +6,24 @@
     <title>Aprenda a jogar xadrez</title>
 </head>
 <body>
-    <body bgcolor="#DCDCDC">
+    <font face="Roboto Mono" size="3" color="#FFFFFF">
+    <body bgcolor="#000000">
     <h1 align="center">Aprenda a jogar xadrez</h1> 
-    <hr color="black">
-    <h2 align="center">1) O xadrez é jogado em um tableiro 8x8, e possui as seguintes peças:</h2>
+    <hr color="white">
+    <h2 align="center"><b>1.  O Xadrez é composto pelas seguintes peças:</b></h2>
    
     <figure align="center">
-    <img src="https://th.bing.com/th/id/OIP.aPdvQ_gb0Hk1RDW0QzqVdwAAAA?w=233&h=125&c=7&r=0&o=7&pid=1.7&rm=3" alt="Peças de um tabuleiro de xadrez" height="200" width="400">
+    <img src="https://th.bing.com/th/id/OIP.aPdvQ_gb0Hk1RDW0QzqVdwAAAA?w=233&h=125&c=7&r=0&o=7&pid=1.7&rm=3" alt="Peças de um tabuleiro de xadrez" height="300" width="500">
     </figure>
     <ol align="left">
-        <li type="square">Torre</li>
-        <li type="square">Cavalo</li>
-        <li type="square">Bispo</li>
-        <li type="square">Dama</li>
-        <li type="square">Rei</li>
-        <li type="square">Peões</li>
-        <hr color="green">
-           <h2 align="center">2. Aprenda o movimento das peças</h2>
+        <li type="square"><h3>Torre</h3></li>
+        <li type="square"><h3>Cavalo</h3></li>
+        <li type="square"><h3>Bispo</h3></li>
+        <li type="square"><h3>Peões</h3></li>
+        <li type="square"><h3>Dama</h3></li>
+        <li type="square"><h3>Rei</h3></li>
+        <hr color="White">
+           <h2 align="center">2.  Aprenda o movimento das peças</h2>
          <table border="10px">
             <tr>
                 <td><img src="data:image/webp;base64,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" alt="Peão" height="70"> -> Avança apenas uma casa por movimento, apenas no primeiro movimento dele ele pode mover duas</td>
@@ -37,23 +38,21 @@
                  </tr>
          </table>
 
-          <hr color="black">
+          <hr color="White">
 
         <h2 align="center">3.   O tabuleiro consiste em 64 casas com casas claras e escuras, onde as peças são definidas por função</h2>
         <figure align="center">
             <img src="data:image/webp;base64,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" alt="tabuleiro de xadrez">
          </figure>
         
-          <hr color="black">
-               <h2 align="center">4) Como jogar</h2>
-               <p>No link a seguir, você poderá acessar os puzzles de xadrez <a href="https://www.chesstempo.com/chess-tactics/"> Clique aqui para acessar os puzzles de xadrez</a></p>
-               <img src="https://i.ytimg.com/vi/KfKXQpA5R_0/maxresdefault.jpg" alt="Puzzle de xadrez nível 2" height="400px"width="600px">
- 
-
-    
-        <a href="https://www.chess.com/play/computer">Clique aqui para jogar xadrez</a>
-    
-
+          <hr color="White">
+               <h2 align="center">4.  Como jogar</h2>
+        
+  
+        <a href="https://www.chess.com/play/computer" Title="Clique para visitar o site de xadrez">
+        <figure align="center">    <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/PedroPinhata/phpxsIApe.png" width="450" height="250">  </figure></a>
+        </a>
+    </figure>
 
     </ol>
 </body>
